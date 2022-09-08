@@ -1,1 +1,2 @@
-This repository includes all programs written in c to solve different tasks and also a medium used to learn more about the c programming language.
+
+This folder includes different scripts to execute several c programs and also learn more about the c programming language.
