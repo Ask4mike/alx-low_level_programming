@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 
 
 /**
@@ -8,8 +7,17 @@
  * Return: Always 0 (Success)
  */
 
+
 int main(void)
 {
-	printf("_putchar\n");
+	char sh[8] = "_putchar";
+	int x;
+
+	for (x = 0; x < 8; x++)
+	{
+		_putchar(sh[x]);
+	}
+		_putchar('\n');
+
 	return (0);
 }
