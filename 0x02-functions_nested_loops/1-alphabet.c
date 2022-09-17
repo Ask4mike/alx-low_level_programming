@@ -1,15 +1,20 @@
 #include "main.h"
 
 /**
- * main - check the code 
- * 
- * Description - A program used to call functions 
+ * alphabet - Entry point
+ *
+ * Description - A function to print the letters of the alphabet.
  *
  * Return: Always 0.
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		_putchar(c);
+	}
+	_putchar('\n');
 }
